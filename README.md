@@ -28,16 +28,6 @@ Overview
 
 This project demonstrates a working Splunk Enterprise deployment ingesting Linux system logs from a remote host using the Splunk Universal Forwarder. The setup mirrors a real-world SOC / SIEM ingestion pipeline.
 
----
-
-Architecture
-
-![Image](https://www.splunk.com/content/dam/splunk-blogs/images/2016/12/Canvas-1-1.png)
-
-![Image](https://splunk.deploy.heretto.com/v4/deployments/lbx3FHoDR4kUISPo5g64/object/333d76ea-49db-445f-adec-efc6a8f78028?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJodHRwczovL2pvcnNlay5jb20vZXpkX29yZ2FuaXphdGlvbiI6InNwbHVuayIsImh0dHBzOi8vam9yc2VrLmNvbS9lemQvb2JqZWN0X3V1aWQiOiIzMzNkNzZlYS00OWRiLTQ0NWYtYWRlYy1lZmM2YThmNzgwMjgiLCJleHAiOjE3NjU5NDUxNTIsImp0aSI6IjEyY2IxOGIxZWI1MjQ2MDE5ZWMxYjM2YmJlMDE0YTlkIiwiaHR0cHM6Ly9qb3JzZWsuY29tL2V6ZF9maWxlc2V0IjoieUw3Q2szSjF6U3JJVG9ocWdoS0EifQ.dV60naifyeSNAYp24Gc6EFFT5_Hh_zJCi5OmqMjO-0c)
-
-![Image](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AqFoKq2v9xEHjhYegY9ZWbA.png)
-
 ```
 [ Linux Host: mainserver ]
   - /var/log/syslog
