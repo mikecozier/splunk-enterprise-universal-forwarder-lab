@@ -22,15 +22,15 @@ splunk-enterprise-universal-forwarder-lab/
     └── troubleshooting.md
 ---
 
-### Splunk Enterprise + Universal Forwarder Linux Log Pipeline
+Splunk Enterprise + Universal Forwarder Linux Log Pipeline
 
-#### Overview
+Overview
 
 This project demonstrates a working Splunk Enterprise deployment ingesting Linux system logs from a remote host using the Splunk Universal Forwarder. The setup mirrors a real-world SOC / SIEM ingestion pipeline.
 
 ---
 
-### Architecture
+Architecture
 
 ![Image](https://www.splunk.com/content/dam/splunk-blogs/images/2016/12/Canvas-1-1.png)
 
