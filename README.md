@@ -53,7 +53,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### Environment
+Environment
 
 | Component           | Details                        |
 | ------------------- | ------------------------------ |
@@ -65,7 +65,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### Data Ingestion Flow
+Data Ingestion Flow
 
 1. Universal Forwarder monitors Linux log files
 2. Logs are forwarded to Splunk Enterprise over TCP 9997
@@ -74,7 +74,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### Example Searches
+Example Searches
 
 ```spl
 index=linux_test
