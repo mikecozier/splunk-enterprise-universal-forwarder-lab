@@ -1,44 +1,7 @@
 # splunk-enterprise-universal-forwarder-lab
-
-This is a **perfect candidate for a GitHub repo** — it shows real infra, real troubleshooting, and real Splunk skills. I’ll show you **exactly how to structure it** so recruiters *immediately* understand what you built.
-
 ---
 
-## 🎯 What this GitHub repo should prove
-
-Your repo should answer 3 questions in under 60 seconds:
-
-1. **What problem did you solve?**
-2. **How is the system architected?**
-3. **Can I reproduce it?**
-
-You already have the hard part done.
-
----
-
-## ✅ Repo name (important)
-
-Use something **clear and searchable**:
-
-```
-splunk-linux-log-pipeline
-```
-
-or
-
-```
-splunk-homelab-log-ingestion
-```
-
-or (best for recruiters):
-
-```
-splunk-enterprise-universal-forwarder-lab
-```
-
----
-
-## 📁 Recommended repo structure
+## Recommended repo structure
 
 ```text
 splunk-enterprise-universal-forwarder-lab/
@@ -57,19 +20,9 @@ splunk-enterprise-universal-forwarder-lab/
 │   └── listener-9997.png
 └── notes/
     └── troubleshooting.md
-```
-
-You don’t need *everything* on day one — README first, configs next.
-
 ---
 
-## 🧠 The README (this is the most important part)
-
-Here’s a **ready-to-use README outline** you can paste and customize:
-
----
-
-### 🚀 Splunk Enterprise + Universal Forwarder Linux Log Pipeline
+### Splunk Enterprise + Universal Forwarder Linux Log Pipeline
 
 #### Overview
 
@@ -77,7 +30,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### 🏗️ Architecture
+### Architecture
 
 ![Image](https://www.splunk.com/content/dam/splunk-blogs/images/2016/12/Canvas-1-1.png)
 
@@ -100,7 +53,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### ⚙️ Environment
+### Environment
 
 | Component           | Details                        |
 | ------------------- | ------------------------------ |
@@ -112,7 +65,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### 📥 Data Ingestion Flow
+### Data Ingestion Flow
 
 1. Universal Forwarder monitors Linux log files
 2. Logs are forwarded to Splunk Enterprise over TCP 9997
@@ -121,7 +74,7 @@ This project demonstrates a working Splunk Enterprise deployment ingesting Linux
 
 ---
 
-### 🔍 Example Searches
+### Example Searches
 
 ```spl
 index=linux_test
@@ -141,7 +94,7 @@ index=linux_test sourcetype=syslog
 
 ---
 
-### 🧰 Configuration Highlights
+### Configuration Highlights
 
 **Indexer – TCP Input**
 
@@ -163,7 +116,7 @@ index = linux_test
 
 ---
 
-### 🧪 Validation
+### Validation
 
 * Confirmed active forwarder connection
 * Verified listener on port 9997
@@ -175,7 +128,7 @@ index = linux_test
 
 ---
 
-### 🛠️ Troubleshooting & Lessons Learned
+### Troubleshooting & Lessons Learned
 
 * Resolved Linux log permission issues by adding UF user to `adm`
 * Learned index vs host distinction
@@ -183,7 +136,7 @@ index = linux_test
 
 ---
 
-### 📌 Next Steps
+### Next Steps
 
 * Add dashboards for SSH activity
 * Create alerts for failed logins
@@ -191,6 +144,6 @@ index = linux_test
 
 ---
 
-## 📸 Screenshots (high impact)
+## Screenshots (high impact)
 
 Add **3 screenshots** (you already have them):
