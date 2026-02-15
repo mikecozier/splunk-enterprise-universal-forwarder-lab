@@ -205,18 +205,6 @@ Aggregation example:
 
 ---
 
-## Screenshots
-
-Include the following:
-
-* Splunk search results showing indexed events
-* Forwarder status (active connection)
-* TCP listener on port 9997
-
-These screenshots demonstrate operational validation of the ingestion pipeline.
-
----
-
 ## Next Steps
 
 * Create dashboard for SSH authentication activity
